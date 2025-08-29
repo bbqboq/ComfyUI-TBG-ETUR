@@ -91,7 +91,7 @@ class TBG_DetailEnhancer:
 
     RETURN_TYPES = ("MODEL",)
     FUNCTION = "hook"
-    CATEGORY = "sampling/custom_sampling/sigmas"
+    CATEGORY = "TBG/Helpers"
 
     def hook(self, model, Sharpener_Strength, ETA_Strength, S_Start, E_Start, S_End, E_End):
         if Sharpener_Strength == 0.0 and ETA_Strength == 0.0:
